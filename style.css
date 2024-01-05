@@ -146,11 +146,13 @@ button {
 	display: none;
 }
 
-.edit-mode .incomplete-tasks__input {
+.edit-mode .incomplete-tasks__input,
+.edit-mode .completed-tasks__input {
 	display: inline-block;
 	width: 224px;
 }
 
-.edit-mode .incomplete-tasks__label {
+.edit-mode .incomplete-tasks__label,
+.edit-mode .completed-tasks__label {
 	display: none;
 }
